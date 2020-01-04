@@ -14,9 +14,9 @@ void employee::setgrade()
 	cin >> grade;
 }
 
-void employee::setaccumPay()
+void employee::setaccumPay(int n)
 {
-	cin >> accumPay;
+	accumPay = n;
 }
 
 void employee::print()

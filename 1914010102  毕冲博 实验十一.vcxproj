@@ -138,11 +138,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="manager.cpp" />
+    <ClCompile Include="salesman.cpp" />
+    <ClCompile Include="salesmanager.cpp" />
+    <ClCompile Include="technician.cpp" />
+    <ClCompile Include="technicianmanager.cpp" />
     <ClCompile Include="源.cpp" />
     <ClCompile Include="employee.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="employee.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="salesman.h" />
+    <ClInclude Include="salesmanager.h" />
+    <ClInclude Include="technician.h" />
+    <ClInclude Include="technicianmanager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
